@@ -15,6 +15,13 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+           
+  <project path="scripts" name="msg555/comet_scripts" />
+  <project path="vm_test" name="msg555/comet_vm_test" />
+  <project path="dalvik" name="Jaeminyx/android_dalvik" />
+  <project path="libcore" name="Jaeminyx/android_libcore" />
+  <project path="packages/apps/CometSettings"
+      name="msg555/comet_android_packages_apps_CometSettings" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
